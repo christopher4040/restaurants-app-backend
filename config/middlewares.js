@@ -31,7 +31,7 @@ module.exports = ({ env }) => [
     config: {
       enabled: true,
       header: '*',
-      origin: ['https://restaurants-app-frontend-rgj1l2ng8-christopher4040.vercel.app']
+      origin: '*'
     },
   },
   // 'strapi::cors',

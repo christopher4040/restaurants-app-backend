@@ -19,6 +19,12 @@
     },
     "price": {
       "type": "integer"
+    },
+    "restaurant": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::restaurant.restaurant",
+      "inversedBy": "dishes"
     }
   }
 }
